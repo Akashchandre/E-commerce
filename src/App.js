@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
+
 import Footer from './components/Footer';
 import Dashboard from './pages/Dashboard';
 import Cart from './pages/Cart';
@@ -13,7 +13,7 @@ const App = () => {
     
 
     <Router>
-      <Header />
+      
      <main className="min-h-screen">
         <Routes>
           <Route path="/" element={<Dashboard />} />
