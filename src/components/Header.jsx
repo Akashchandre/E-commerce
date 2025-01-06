@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaShoppingCart, FaHeart, FaUser, FaSearch } from 'react-icons/fa';
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const Header = ({ onSearch }) => {
   const [showSearch, setShowSearch] = useState(false);
   const [query, setQuery] = useState(''); 
@@ -17,7 +17,7 @@ const Header = ({ onSearch }) => {
 
   return (
     <header className="bg-blue-500 text-white px-4 py-2 flex justify-between items-center">
-      <div className="text-xl font-bold">Shop-online</div>
+      <Link to="/" className="text-xl font-bold">Shop-online</Link>
       <nav className="flex gap-4 items-center">
         {showSearch ? (
           <input
