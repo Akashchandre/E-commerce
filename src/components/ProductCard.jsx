@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart } from '../features/cartSlice.jsx';
-import { addToWishlist } from '../features/wishlistSlice.jsx';
+import { addToCart } from '../features/cartSlice.js';
+import { addToWishlist } from '../features/wishlistSlice.js';
 import { useNavigate } from 'react-router-dom';
 
 const ProductCard = ({ product }) => {
