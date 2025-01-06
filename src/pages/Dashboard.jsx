@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import ProductCard from '../components/ProductCard';
-import Header from '../components/Header';
+import ProductCard from '../components/ProductCard.jsx';
+import Header from '../components/Header.jsx';
 
 const Dashboard = () => {
   const [products, setProducts] = useState([]); // Store all products

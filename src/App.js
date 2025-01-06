@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Footer from './components/Footer';
-import Dashboard from './pages/Dashboard';
-import Cart from './pages/Cart';
-import Wishlist from './pages/Wishlist';
-import ProductDetails from './pages/ProductDetails';
-import Login from './pages/Login';
+import Footer from './components/Footer.jsx';
+import Dashboard from './pages/Dashboard.jsx';
+import Cart from './pages/Cart.jsx';
+import Wishlist from './pages/Wishlist.jsx';
+import ProductDetails from './pages/ProductDetails.jsx';
+import Login from './pages/Login.jsx';
 
 const App = () => {
   return (
