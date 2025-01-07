@@ -3,7 +3,7 @@ module.exports = {
       '^.+\\.(js|jsx)$': 'babel-jest',
     },
     transformIgnorePatterns: [
-      '/node_modules/(?!react-router-dom|axios)/',  // Make sure jest transforms react-router-dom
+      '/node_modules/(?!react-router-dom|axios)/',  
     ],
     moduleNameMapper: {
       '\\.(css|scss|less)$': 'identity-obj-proxy',
@@ -11,7 +11,7 @@ module.exports = {
       '^axios$': require.resolve('axios'),
 
     },
-    testEnvironment: 'jsdom', // Simulate a browser-like environment
-    moduleDirectories: ['node_modules', 'src'], // Ensure Jest can resolve 'src' imports
+    testEnvironment: 'jsdom', 
+    moduleDirectories: ['node_modules', 'src'], 
   };
   

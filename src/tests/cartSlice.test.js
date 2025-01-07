@@ -1,4 +1,4 @@
-// __tests__/cartSlice.test.js
+
 import cartReducer, { addToCart, removeFromCart, incrementQuantity } from '../features/cartSlice.js';
 
 describe('Cart Slice Reducer', () => {
